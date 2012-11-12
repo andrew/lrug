@@ -5,6 +5,6 @@ require 'bubble-wrap'
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'lrug'
+  app.name = 'LRUG'
   app.device_family = [:iphone, :ipad]
 end

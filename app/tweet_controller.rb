@@ -20,7 +20,7 @@ class TweetController < UIViewController
     @label.lineBreakMode = UILineBreakModeWordWrap
     @label.numberOfLines = 0
     @label.color = '#fff'.to_color
-    @label.text = 'Tap me!'
+    @label.text = "Hello #{hashtag}!      Tap me!"
     @label.addGestureRecognizer(single_tap)
 
     self.view.addSubview @label
@@ -36,7 +36,7 @@ class TweetController < UIViewController
   end
   
   def hashtag
-    'lrug'
+    'LRUG'
   end
   
   def tapped(sender)
